@@ -36,3 +36,16 @@ h2,h4{
 @media img(min-width: 1024px) {
     .imageFlex1 {width: 400px;}
 }
+.imageFlex1 {width: 100px;}
+
+@media (min-width: 640px) {
+    .imageFlex1 {width : 200px; }
+}
+
+@media (min-width: 768px) {
+    .imageFlex1 {width: 300px; }
+}
+
+@media (min-width: 1024px) {
+    .imageFlex1 {width: 400px;}
+}
