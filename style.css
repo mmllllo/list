@@ -21,31 +21,28 @@ h2,h4{
    
 }
 
-@media (max-height: 900px), screen and (orientation: portrait)
-
-.imageFlex1 img{width: 100px;}
-
-@media img(min-width: 640px) {
-    .imageFlex1 {width : 200px; }
+@media screen and (min-width: 300px) {
+    .imageFlex1 img{width : 220px; }
 }
 
-@media img(min-width: 768px) {
-    .imageFlex1 {width: 300px; }
+@media screen and (min-width: 400px) {
+    .imageFlex1 img{width: 300px; }
 }
 
-@media img(min-width: 1024px) {
-    .imageFlex1 {width: 400px;}
+@media screen and (min-width: 600px) {
+    .imageFlex1 img{width: 430px;}
 }
 .imageFlex1 {width: 100px;}
 
-@media (min-width: 640px) {
-    .imageFlex1 {width : 200px; }
+@media screen and (min-width: 300px) {
+    .imageFlex1 {width : 250px; }
 }
 
-@media (min-width: 768px) {
-    .imageFlex1 {width: 300px; }
+@media screen and (min-width: 400px) {
+    .imageFlex1 {width: 320px; }
 }
 
-@media (min-width: 1024px) {
-    .imageFlex1 {width: 400px;}
+@media screen and (min-width: 600px) {
+    .imageFlex1 {width: 450px;}
 }
+@media (max-height: 900px), screen and (orientation: portrait)
